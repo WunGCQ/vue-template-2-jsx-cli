@@ -1,0 +1,30 @@
+{
+  "name": "vue-template-2-jsx-cli",
+  "version": "0.0.1",
+  "description": "help you tu convert .vue file to jsx/js/css file and open it in new VSCode session",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && mkdir ./temp && chmod 755 ./run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WunGCQ/vue-template-2-jsx-cli.git"
+  },
+  "keywords": [
+    "vue-template-2-jsx-cli"
+  ],
+  "author": "WunGCQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WunGCQ/vue-template-2-jsx-cli/issues"
+  },
+  "homepage": "https://github.com/WunGCQ/vue-template-2-jsx-cli#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "html-entities": "^1.2.1",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "node-cmd": "^3.0.0"
+  }
+}
